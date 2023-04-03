@@ -1,0 +1,4 @@
+number=int(input("Enter the number fo which the user wants to print the mulltiplication table : "))
+print("The multiplication Table of : ",number)
+for count in range (1,11):
+    print(number,'X',count,'=',number*count)
