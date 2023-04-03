@@ -1,0 +1,9 @@
+P=int(input("Please enter value for p:"))
+Q=int(input("Please enter value for q:"))
+
+temp_1=P
+P=Q
+Q=temp_1
+
+print("The value of p after swapping ",P)
+print("The value of Q after swapping ",Q)
